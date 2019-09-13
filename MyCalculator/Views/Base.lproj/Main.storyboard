@@ -352,7 +352,7 @@
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                         <connections>
-                                                            <action selector="numberKeysPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ppj-38-X4s"/>
+                                                            <action selector="handleButtonPressWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="idS-hc-Ly8"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="501" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FHB-eE-i7U" customClass="CustomUIButton" customModule="MyCalculator" customModuleProvider="target">

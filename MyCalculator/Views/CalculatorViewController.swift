@@ -55,7 +55,7 @@ class CalculatorViewController: UIViewController {
     }
     
     //MARK:- Action events method
-
+    
     @IBAction func menuButtonTapped(_ sender: UIButton) {
         self.performSegue(withIdentifier: "showMenu", sender: self)
     }
@@ -99,10 +99,8 @@ class CalculatorViewController: UIViewController {
                 resultLabel.text = ""
                 finalResultLabel.text = ""
 //                isFinalViewAnimated = false
-
                 break
-                case "←":
-                
+            case "←":
                 break
             case "+/-", "%":
                 break
